@@ -18,3 +18,10 @@ import { RecipesPage } from './recipes.page';
   declarations: [RecipesPage]
 })
 export class RecipesPageModule {}
+
+export interface Recipe {
+  id : string;
+  title : string;
+  imageUrl : string;
+  ingredients : string[];
+}
